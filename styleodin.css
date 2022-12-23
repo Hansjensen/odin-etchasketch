@@ -1,0 +1,78 @@
+:root {
+    --red: #ff3333;
+    --gray: #999999;
+    --teal: #669999;
+    --green: #003333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--teal);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.etch {
+    width: 1000px;
+    height: 600px;
+    background-color: var(--red);
+    margin-top: 90px;
+    border-radius: 50px;
+    border: 1px var(--green) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title {
+    margin: 20px ;
+    color: whitesmoke;
+}
+
+.sketch {
+    width: 850px;
+    height: 425px;
+    background-color: var(--gray);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.draw {
+    height: 100px;
+    width: 100px;
+    border: 1px var(--red) solid;
+}
+
+.controls {
+    height: 75px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dial {
+    background-color: whitesmoke;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px var(--green) dotted;
+}
