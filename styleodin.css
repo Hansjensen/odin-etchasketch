@@ -55,11 +55,20 @@ body {
 
 }
 
-.draw {
-    min-width: calc(100% / 16);
-    min-height: calc(100% / 8);
+.drawlow {
+    min-width: calc(100% / 32);
+    min-height: calc(100% / 16);
 }
 
+.drawmed {
+    min-width: calc(100% / 64);
+    min-height: calc(100% / 32);
+}
+
+.drawhi {
+    min-width: calc(100% / 128);
+    min-height: calc(100% / 64);   
+}
 
 
 .drawhover {
